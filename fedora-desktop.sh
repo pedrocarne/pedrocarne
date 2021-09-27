@@ -29,19 +29,19 @@ sudo rpm --import https://brave-browser-rpm-release.s3.brave.com/brave-core.asc 
 #Install the programs
 
 #These are for themes and extensions
-sudo dnf install gnome-tweak-tool gnome-extensions &&
+sudo dnf install gnome-tweak-tool gnome-extensions -y &&
 
 #Desing and music
-sudo dnf install gimp inkscape blender ardour6 &&
-flatpak install flathub com.github.libresprite.LibreSprite &&
+sudo dnf install gimp inkscape blender ardour6 -y &&
+flatpak install flathub com.github.libresprite.LibreSprite -y &&
 
 #Programming
-sudo dnf install sublime-text codium gvim godot &&
-sudo dnf install remmina &&
-sudo dnf install java java-devel make automake gcc gcc-c++ kernel-devel &&
+sudo dnf install sublime-text codium gvim godot -y &&
+sudo dnf install remmina -y &&
+sudo dnf install java java-devel make automake gcc gcc-c++ kernel-devel -y &&
 
 #Nvidia drivers
-sudo dnf install akmod-nvidia &&
+sudo dnf install akmod-nvidia -y &&
 
 #Daily use
-sudo dnf install qbittorret thunderbird brave-browser
+sudo dnf install qbittorrent thunderbird brave-browser -y
