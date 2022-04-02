@@ -57,5 +57,5 @@ sudo dnf install akmod-nvidia -y &&
 sudo dnf install xorg-x11-drv-nvidia-cuda -y &&
 
 #Daily use
-sudo dnf install qbittorrent thunderbird brave-browser -y
+sudo dnf install fragments thunderbird brave-browser -y
 
