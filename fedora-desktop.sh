@@ -27,7 +27,7 @@ git config --global user.email "pedro" &&
 
 #Downloading and Installing Intellij idea
 cd $HOME/Downloads &&
-wget -c https://www.jetbrains.com/pt-br/idea/download/download-thanks.html?platform=linux&code=IIC  &&
+wget -c https://download.jetbrains.com/idea/ideaIC-2021.3.3.tar.gz &&
 tar xvzf ~/Downloads/idea*.tar.gz -C /tmp/ &&
 sudo chown -R root:root /tmp/idea* &&
 sudo mv /tmp/idea* /opt/idea &&
